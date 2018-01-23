@@ -1,0 +1,115 @@
+@font-face{
+    font-family : 'estedad';
+    src : url('fonts/estedad.ttf');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-size: 16px;
+    background-color: #dadada;
+    font-family : 'estedad';    
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.clear{
+    clear: both;
+}
+
+.CenterOfBox{
+    width: 1220px;
+    margin: 0 auto;
+}
+
+/* -------------------- Navigation bar -------------------- */
+
+nav{
+    height: 42px;
+}
+
+header>nav>div#row1{
+    width: 100%;
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    /* height: 20px; */
+}
+
+header>nav>div#row1>div#navBox{
+    height: 100%;
+    /* margin: 10px auto; */
+}
+
+header>nav>div#row1>div#navBox>ul{
+    width: 100%;
+
+}
+
+header>nav>div#row1>div#navBox>ul>li{
+    display: inline-block;
+    float: right;
+    text-align: center;
+    list-style-type: none;
+}
+
+header>nav>div#row1>div#navBox>ul>li>a{
+    line-height: 20px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    /* background-color: red; */
+    width: 140px;
+    padding: 11px;
+}
+
+header>nav>div#row1>div#navBox>ul>li>a:hover{
+    background-color: darkgray;
+    /* color: black; */
+    font-weight: 900;
+}
+
+/* -------------------- Slider -------------------- */
+
+div#row2 {
+    margin: 81px 0;
+}
+
+#row2>#sliderTxt>h1{
+    text-align: center;
+    font-size: 200px;
+}
+
+#row2>#sliderTxt>p {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 12px;
+}
+
+/* -------------------- Slider -------------------- */
+
+#row3{
+    background-color: white;
+}
+
+#row3>div#newPodsTitle{
+    background-color: black;
+    height: 48px;
+}
+
+#row3>div#newPodsTitle>h3{
+    padding: 10px 0;
+    color: white;
+}
+
+#row3>div#newPods{
+    background-color: white;
+    height: 48px;
+    margin-bottom: 90px;    
+}
+
